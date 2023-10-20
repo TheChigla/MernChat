@@ -1,0 +1,21 @@
+@import '../../sass/variables';
+
+.sidebar {
+  transition: 0.5s ease-in-out;
+}
+
+.sidebar__user {
+  transition: 0.2s ease-in-out;
+
+  &:hover {
+    background-color: $primary-color;
+  }
+}
+
+.sidebar__user.selected {
+  background-color: $primary-color;
+}
+
+.sidebar__user:hover .sidebar__chat---share-button {
+  display: block;
+}
