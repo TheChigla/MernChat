@@ -19,7 +19,7 @@ const Sidebar = ({
           : 'sidebar fixed lg:relative'
       }
     >
-      <div className='sidebar__wrapper bg-white max-w-xs w-screen h-full pt-5 lg:max-w-sm lg:w-screen flex flex-col fixed'>
+      <div className='sidebar__wrapper bg-white max-w-xs w-screen h-screen pt-5 lg:max-w-sm lg:w-screen flex flex-col fixed lg:relative'>
         <SidebarHeader setSidebarScrolled={setSidebarScrolled} />
         <div className='sidebar__list mt-5 flex-1 overflow-auto'>
           {chats ? (
