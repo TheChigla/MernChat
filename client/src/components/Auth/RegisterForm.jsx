@@ -11,7 +11,7 @@ const RegisterForm = ({
 }) => {
   return (
     <form action='' className='auth-form' onSubmit={e => handleAuth(e)}>
-      <div className='auth-form__wrapper max-w-xs w-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'>
+      <div className='auth-form__wrapper max-w-xs lg:max-w-md w-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'>
         <div className='auth-form__flex flex gap-3'>
           <div className='auth-form__input w-full'>
             <input
